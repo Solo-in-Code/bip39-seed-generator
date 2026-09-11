@@ -2831,7 +2831,7 @@ function applyGeneratedPhrase(){
 }
 
 async function generate(){
-  if (currentWords && revealed){
+  if (currentWords){
     if (!confirm('Generate a new phrase? The current one will be replaced and cannot be recovered from this page.')) return;
   }
   const entropy = new Uint8Array(entropyBytesFor(wordLen));
