@@ -1,0 +1,13 @@
+{
+  "name": "bip39-seed-generator-tests",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Validation suite for index.html — re-derives the embedded wordlist, official BIP-39 test vectors, and SeedQR encoding, and checks them against independent reference packages.",
+  "scripts": {
+    "test": "node verify.test.js"
+  },
+  "devDependencies": {
+    "bip39": "^3.1.0",
+    "qrcode-generator": "^2.0.4"
+  }
+}
