@@ -133,15 +133,6 @@ no second reviewer, no independent security audit. `tests/` and CI exist so
 that can change over time — so a future pull request gets reviewed against a
 green test run instead of against nothing.
 
-## Why this exists
-
-This project was born in the wake of the Coldcard incident, which made clear
-how many people's savings depend on trusting a single vendor, device, or
-service with the most sensitive secret in their financial life. This tool is a
-small step in the opposite direction: one readable HTML file, the official
-BIP-39 test vectors, a test suite anyone can run, and instructions to use it
-on a machine that is offline. Generating and verifying your own seed should
-depend on nothing and nobody but yourself.
 
 ## Project structure
 
