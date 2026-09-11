@@ -24,4 +24,4 @@ Initial release.
 - Strict Content-Security-Policy (`default-src 'none'`); no network requests
 - MIT License
 
-[1.0.0]: https://github.com/Solo-in-Code/bip39-seed-generator.git/releases/tag/v1.0.0
+[1.0.0]: https://github.com/Solo-in-Code/bip39-seed-generator/releases/tag/v1.0.0
