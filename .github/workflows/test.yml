@@ -1,0 +1,27 @@
+   name: tests
+   
+   on:
+     push:
+       branches: [main]
+     pull_request:
+       branches: [main]
+     workflow_dispatch:
+   
+   jobs:
+     verify:
+       name: Validate index.html against official BIP-39 test vectors
+       runs-on: ubuntu-latest
+       steps:
+         - uses: actions/checkout@v4
+   
+         - uses: actions/setup-node@v4
+           with:
+             node-version: 20
+   
+         - name: Install test dependencies
+           working-directory: tests
+           run: npm install
+   
+         - name: Run validation suite
+           working-directory: tests
+           run: npm test
