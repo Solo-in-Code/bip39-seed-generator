@@ -8,7 +8,7 @@
 <meta name="description" content="Offline BIP-39 seed phrase generator — single HTML file, no network requests, dice-roll entropy, SeedQR export, built-in self-test.">
 <!--
 BIP-39 Seed Phrase Generator
-Version 1.0.0
+Version 1.1.0
 MIT License
 Copyright (c) 2026 Solo-in-Code
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -317,7 +317,7 @@ details.section .section-body{padding-top:14px;}
   </div>
   <p class="about">Entropy comes from <code>crypto.getRandomValues</code>, encoded as a <a href="https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki" target="_blank" rel="noopener">BIP-39</a> mnemonic with a SHA-256 checksum, and the seed below is derived with PBKDF2-HMAC-SHA512 at 2048 rounds — the same steps every BIP-39 wallet runs. This page makes no network requests, and its Content-Security-Policy blocks outbound connections at the browser level even if the code were somehow tampered with.</p>
   <p class="about">QR codes use the <a href="https://github.com/SeedSigner/seedsigner/blob/main/docs/seed_qr/README.md" target="_blank" rel="noopener">Standard SeedQR</a> format and the <code>qrcode-generator</code> library by Kazuhiko Arase (MIT) — embedded in full below, no external request.</p>
-  <p class="about">Released under the <a href="https://opensource.org/license/mit/" target="_blank" rel="noopener">MIT License</a> — see the header of the source or the accompanying LICENSE file. Version 1.0.0.</p>
+  <p class="about">Released under the <a href="https://opensource.org/license/mit/" target="_blank" rel="noopener">MIT License</a> — see the header of the source or the accompanying LICENSE file. Version 1.1.0.</p>
 </footer>
 
 <script>
