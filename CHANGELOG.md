@@ -7,8 +7,7 @@ number printed in the page footer and in the `index.html` header comment.
 
 - QR hint now carries an explicit air-gapped transfer warning: scan the
   SeedQR only with an offline, trusted device (e.g. SeedSigner) — never
-  with a phone or camera app connected to the internet. Ported from the
-  sibling project of 2026-09-09.
+  with a phone or camera app connected to the internet. 
 - "Good practice" list now names a concrete offline-generation example:
   a Tails OS USB stick on an air-gapped machine.
 
