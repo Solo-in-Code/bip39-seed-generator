@@ -3,6 +3,17 @@
 All notable changes to this project are documented here. Versions match the
 number printed in the page footer and in the `index.html` header comment.
 
+## [1.1.0] — 2026-09-12
+
+- QR hint now carries an explicit air-gapped transfer warning: scan the
+  SeedQR only with an offline, trusted device (e.g. SeedSigner) — never
+  with a phone or camera app connected to the internet. Ported from the
+  sibling project of 2026-09-09.
+- "Good practice" list now names a concrete offline-generation example:
+  a Tails OS USB stick on an air-gapped machine.
+
+  [1.1.0]: https://github.com/Solo-in-Code/bip39-seed-generator/releases/tag/v1.1.0
+
 ## [1.0.0] — 2026-09-11
 
 Initial release.
