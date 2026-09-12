@@ -1,6 +1,6 @@
 # BIP-39 Seed Phrase Generator
 
-[![CI](https://github.com/Solo-in-Code/bip39-seed-generator/actions/workflows/test.yml/badge.svg)](https://github.com/Solo-in-Code/bip39-seed-generator/actions/workflows/test.yml)
+[![tests](https://github.com/Solo-in-Code/bip39-seed-generator/actions/workflows/test.yml/badge.svg)](https://github.com/Solo-in-Code/bip39-seed-generator/actions/workflows/test.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-bf9257.svg)](LICENSE)
 
 A single self-contained HTML file that generates BIP-39 Bitcoin seed phrases
