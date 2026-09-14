@@ -39,8 +39,13 @@ the [seQRets](https://github.com/seQRets) tools (My-Passphrase, ittybitz).
    stay offline — this page never calls out, but you're still trusting the
    device it runs on.
 3. Open the file directly in a browser (double-click it — no server needed).
-4. Generate, write the words down by hand, verify the backup using the
-   "Check an existing phrase" tool, then import into your wallet of choice.
+   For real value, use a browser without extensions — extensions can read what is on the page.
+4. Generate, write the words down by hand on paper or steel — never as a
+   file, photo, or on a flash drive. Then type your handwritten copy back
+   into the "Check an existing phrase" tool: "✓ Valid" means your backup is
+   transcribed correctly. Only then import into your wallet of choice.
+   Optionally add a passphrase (the "25th word") for an extra layer — but
+   write it down separately: without it, the wallet cannot be recovered.
 
 ## Security model
 
